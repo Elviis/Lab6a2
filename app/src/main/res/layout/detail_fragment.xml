@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/captain"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="20dip"
+        android:text="Johnathan Archer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dip" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/portraitView"
+        android:layout_weight="0.51" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.50"
+        android:id="@+id/webView" />
+</LinearLayout>

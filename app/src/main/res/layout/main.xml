@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/frag_series"
+        class="butterycontent.lab6a2.ListFrag"
+        android:layout_width="200dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:attr/actionBarSize" />
+
+    <fragment
+        android:id="@+id/frag_capt"
+        class="butterycontent.lab6a2.DetailFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
